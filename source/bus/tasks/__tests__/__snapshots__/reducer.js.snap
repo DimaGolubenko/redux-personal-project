@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tasks reducer should handle CLEAR_EDITING_TASK_MESSAGE action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "",
+  "isTaskEditing": false,
+  "newTaskMessage": "",
+  "tasks": Immutable.List [],
+  "tasksFilter": "",
+}
+`;
+
+exports[`tasks reducer should handle COMPLETE_ALL_TASKS action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "",
+  "isTaskEditing": false,
+  "newTaskMessage": "",
+  "tasks": Immutable.List [
+    Immutable.Map {
+      "id": "5d52c19db808f5cbc8f4570c",
+      "message": "первая задача",
+      "completed": false,
+      "favorite": false,
+      "created": "2019-08-13T13:56:45.894Z",
+      "modified": "2019-09-22T08:34:34.507Z",
+    },
+    Immutable.Map {
+      "id": "5d52c19db808f5cbc8f4570c",
+      "message": "первая задача",
+      "completed": false,
+      "favorite": false,
+      "created": "2019-08-13T13:56:45.894Z",
+      "modified": "2019-09-22T08:34:34.507Z",
+    },
+  ],
+  "tasksFilter": "",
+}
+`;
+
+exports[`tasks reducer should handle CREATE_TASK action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "",
+  "isTaskEditing": false,
+  "newTaskMessage": "",
+  "tasks": Immutable.List [
+    Immutable.Map {
+      "id": "5d52c19db808f5cbc8f4570c",
+      "message": "первая задача",
+      "completed": false,
+      "favorite": false,
+      "created": "2019-08-13T13:56:45.894Z",
+      "modified": "2019-09-22T08:34:34.507Z",
+    },
+  ],
+  "tasksFilter": "",
+}
+`;
+
+exports[`tasks reducer should handle FILL_TASKS action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "",
+  "isTaskEditing": false,
+  "newTaskMessage": "",
+  "tasks": Immutable.List [
+    Immutable.Map {
+      "id": "5d52c19db808f5cbc8f4570c",
+      "message": "первая задача",
+      "completed": false,
+      "favorite": false,
+      "created": "2019-08-13T13:56:45.894Z",
+      "modified": "2019-09-22T08:34:34.507Z",
+    },
+    Immutable.Map {
+      "id": "5d52c19db808f5cbc8f4570c",
+      "message": "первая задача",
+      "completed": false,
+      "favorite": false,
+      "created": "2019-08-13T13:56:45.894Z",
+      "modified": "2019-09-22T08:34:34.507Z",
+    },
+  ],
+  "tasksFilter": "",
+}
+`;
+
+exports[`tasks reducer should handle REMOVE_TASK action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "",
+  "isTaskEditing": false,
+  "newTaskMessage": "",
+  "tasks": Immutable.List [],
+  "tasksFilter": "",
+}
+`;
+
+exports[`tasks reducer should handle SET_EDITING_TASK_ID action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "5d52c19db808f5cbc8f4570c",
+  "isTaskEditing": false,
+  "newTaskMessage": "",
+  "tasks": Immutable.List [],
+  "tasksFilter": "",
+}
+`;
+
+exports[`tasks reducer should handle TOGGLE_TASK_EDITING action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "",
+  "isTaskEditing": true,
+  "newTaskMessage": "",
+  "tasks": Immutable.List [],
+  "tasksFilter": "",
+}
+`;
+
+exports[`tasks reducer should handle UPDATE_EDITING_TASK_MESSAGE action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "первая задача",
+  "isTaskEditing": false,
+  "newTaskMessage": "",
+  "tasks": Immutable.List [],
+  "tasksFilter": "",
+}
+`;
+
+exports[`tasks reducer should handle UPDATE_NEW_TASK_MESSAGE action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "",
+  "isTaskEditing": false,
+  "newTaskMessage": "первая задача",
+  "tasks": Immutable.List [],
+  "tasksFilter": "",
+}
+`;
+
+exports[`tasks reducer should handle UPDATE_TASK action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "",
+  "isTaskEditing": false,
+  "newTaskMessage": "",
+  "tasks": Immutable.List [],
+  "tasksFilter": "",
+}
+`;
+
+exports[`tasks reducer should handle UPDATE_TASKS_FILTER action 1`] = `
+Object {
+  "editingTaskId": null,
+  "editingTaskMessage": "",
+  "isTaskEditing": false,
+  "newTaskMessage": "",
+  "tasks": Immutable.List [],
+  "tasksFilter": "",
+}
+`;
